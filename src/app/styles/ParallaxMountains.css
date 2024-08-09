@@ -1,0 +1,25 @@
+.bannerContainer {
+	color: white;
+	background-color: #ffb791;
+	aspect-ratio: 2/1;
+	overflow: visible;
+	margin-bottom: 100px;
+}
+
+.bannerLayer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+
+.bannerLayer .fill {
+	fill: red;
+}
+
+h1 {
+	color: #151424;
+	font-size: 60px;
+}
