@@ -1,6 +1,11 @@
 .bannerContainer {
 	color: white;
-	background-color: #ffb791;
+	background: rgb(186, 93, 104);
+	background: linear-gradient(
+		180deg,
+		rgba(186, 93, 104, 1) 0%,
+		rgba(253, 194, 150, 1) 29%
+	);
 	aspect-ratio: 2/1;
 	overflow: visible;
 	margin-bottom: 100px;

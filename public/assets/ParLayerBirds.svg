@@ -2,44 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="450 500 2200 5800">
   <defs>
     <style>
-      .cls-1 {
-        fill: #224560;
-      }
-
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
         stroke-width: 0px;
-      }
-
-      .cls-2 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-3 {
-        fill: #153242;
-      }
-
-      .cls-4 {
-        fill: #1e3e54;
-      }
-
-      .cls-5 {
-        fill: url(#linear-gradient-4);
-      }
-
-      .cls-6 {
-        fill: url(#linear-gradient-2);
-      }
-
-      .cls-7 {
-        fill: url(#linear-gradient-3);
-      }
-
-      .cls-8 {
-        fill: url(#linear-gradient-5);
-      }
-
-      .cls-9 {
-        fill: url(#linear-gradient-6);
       }
 
       .cls-11 {
@@ -47,7 +11,7 @@
       }
 
       .cls-10 {
-        fill: #112a35;
+        fill: #121121;
       }
     </style>
     <linearGradient id="linear-gradient" x1="1600.2" y1="4263.6" x2="1600.2" y2="1371.2" gradientTransform="translate(3200.4) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
