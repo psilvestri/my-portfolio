@@ -1,0 +1,18 @@
+.collapseArrow {
+	width: 50px;
+	height: 50px;
+}
+
+.collapseArrow::before {
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	top: 0.15em;
+	vertical-align: top;
+	width: 30px;
+	height: 30px;
+	transform: rotate(135deg);
+}

@@ -1,10 +1,15 @@
+import './styles/Page.css';
+
 import ParallaxMountains from './components/ParallaxMountains';
+import AboutMe from './components/AboutMe';
 
 export default function Home() {
 	return (
-		<div>
+		<div className="HomePage">
 			<ParallaxMountains />
-			<div style={{ height: '1000px' }}></div>
+			<div className="HomeContent">
+				<AboutMe />
+			</div>
 		</div>
 	);
 }
