@@ -11,7 +11,6 @@ export default function AboutMe() {
 	const [showContent, setShowContent] = useState(false);
 
 	const handleClick = () => {
-		setAnimated(!animated);
 		setShowContent(!showContent);
 	};
 
