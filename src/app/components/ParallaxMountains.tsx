@@ -59,10 +59,10 @@ export default function ParallaxMountains() {
 						speed={200}
 						style={{ translate: '0px 2920px' }}
 					/>
-
 					<div className="absolute inset-0 flex items-center justify-center">
 						<h1 className="text-8xl text-white font-thin">Hello World!</h1>
 					</div>
+					<div className="bannerArrow"></div>
 				</ParallaxBanner>
 			</Providers>
 		</div>

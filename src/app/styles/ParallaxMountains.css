@@ -28,3 +28,24 @@ h1 {
 	color: #151424;
 	font-size: 60px;
 }
+
+.bannerArrow {
+	width: 100px;
+	height: 100px;
+	margin: 750px auto auto auto;
+	bottom: 50px;
+}
+
+.bannerArrow::before {
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	top: 0.15em;
+	vertical-align: top;
+	width: 60px;
+	height: 60px;
+	transform: rotate(135deg);
+}
