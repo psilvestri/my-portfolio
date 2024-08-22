@@ -1,14 +1,21 @@
 'use client';
 
 import '../styles/AboutMe.css';
+import '../styles/CollapsibleSection.css';
 
 import { useState } from 'react';
 import CollapseArrow from './CollapseArrow';
 
 export default function AboutMe() {
+	// const [isMounted, setIsMounted] = useState(false);
 	const [showContent, setShowContent] = useState(false);
 
-	const handleClick = () => setShowContent(!showContent);
+	const handleClick = () => {
+		setAnimated(!animated);
+		setShowContent(!showContent);
+	};
+
+	const rotate = showContent ? 'rotate(0)' : 'rotate(-90deg)';
 
 	return (
 		<div
@@ -18,10 +25,15 @@ export default function AboutMe() {
 				className="collapseHeader"
 				onClick={handleClick}>
 				<div className="collapseTitle">About Me</div>
-				<CollapseArrow />
+				<CollapseArrow
+					style={{
+						transform: rotate,
+						transition: 'all 0.2s linear',
+					}}
+				/>
 			</div>
 
-			<div className="collapseContent">
+			<div className={'collapseContent ' + (showContent ? 'contentOpen' : '')}>
 				{showContent && (
 					<p>
 						I&apos;m a full-stack software developer with over five years of
