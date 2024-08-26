@@ -26,7 +26,7 @@
 }
 
 .collapseContent {
-	padding: 0 18px;
+	padding: 10px 18px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: row;
@@ -38,4 +38,9 @@
 	-moz-transition: max-height 400ms ease;
 	-o-transition: max-height 400ms ease;
 	transition: max-height 400ms ease;
+
+	&.contentOpen {
+		max-height: calc(1200px + 20px);
+		min-height: 100px;
+	}
 }
