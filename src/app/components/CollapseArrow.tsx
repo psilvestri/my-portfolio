@@ -1,6 +1,10 @@
 import '../styles/CollapseArrow.css';
 
-export default function CollapseArrow({ style }) {
+export default function CollapseArrow({
+	style,
+}: {
+	style: React.CSSProperties;
+}) {
 	return (
 		<div
 			className="collapseArrow"
