@@ -13,7 +13,11 @@ export default function GithubProject({
 	return (
 		<div className="recentProjectInner">
 			<h3 className="recentProjectName">
-				<a href={html_url}>{name}</a>
+				<a
+					href={html_url}
+					target="_blank">
+					{name}
+				</a>
 			</h3>
 			<h4 className="recentProjectLanguage">{language}</h4>
 			<p className="recentProjectDescription">{description}</p>
