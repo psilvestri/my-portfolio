@@ -24,10 +24,12 @@ export default function AboutMe() {
 				onClick={handleClick}>
 				<div className="collapseTitle">About Me</div>
 				<CollapseArrow
-					style={{
-						transform: rotate,
-						transition: 'all 0.2s linear',
-					}}
+					style={
+						{
+							transform: rotate,
+							transition: 'all 0.2s linear',
+						} as React.CSSProperties
+					}
 				/>
 			</div>
 

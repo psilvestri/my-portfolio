@@ -57,10 +57,12 @@ export default function RecentWork() {
 				onClick={handleClick}>
 				<div className="collapseTitle">Recent Activity</div>
 				<CollapseArrow
-					style={{
-						transform: rotate,
-						transition: 'all 0.2s linear',
-					}}
+					style={
+						{
+							transform: rotate,
+							transition: 'all 0.2s linear',
+						} as React.CSSProperties
+					}
 				/>
 			</div>
 
