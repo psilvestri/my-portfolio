@@ -1,7 +1,6 @@
 .collapseSection {
 	border-bottom: 2px white solid;
 	padding-bottom: 25px;
-	cursor: pointer;
 }
 
 .collapseHeader {
@@ -11,6 +10,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	cursor: pointer;
 }
 
 .collapseTitle {
@@ -38,8 +38,4 @@
 	-moz-transition: max-height 400ms ease;
 	-o-transition: max-height 400ms ease;
 	transition: max-height 400ms ease;
-
-	&.contentOpen {
-		max-height: 200px;
-	}
 }

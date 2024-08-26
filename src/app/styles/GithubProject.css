@@ -1,0 +1,40 @@
+.recentProjectInner {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.recentProjectName {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.recentProjectLanguage {
+	font-size: 14px;
+	color: lightgray;
+}
+
+.recentProjectDescription {
+	font-size: 14px;
+}
+
+.recentProjectTopics {
+	height: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: auto;
+	align-self: flex-end;
+}
+
+.recentProjectTopic {
+	font-size: 14px;
+	font-weight: 300;
+	color: #121121;
+	background-color: white;
+	border-radius: 5px;
+	width: auto;
+	padding: 1px 10px;
+	flex-grow: 1;
+}

@@ -1,0 +1,23 @@
+#recentWorkSection {
+}
+
+.collapseContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+
+	&.contentOpen {
+		max-height: 550px;
+	}
+}
+
+.recentProject {
+	width: 31%;
+	min-height: 250px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

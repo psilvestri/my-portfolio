@@ -7,7 +7,6 @@ import { useState } from 'react';
 import CollapseArrow from './CollapseArrow';
 
 export default function AboutMe() {
-	// const [isMounted, setIsMounted] = useState(false);
 	const [showContent, setShowContent] = useState(false);
 
 	const handleClick = () => {

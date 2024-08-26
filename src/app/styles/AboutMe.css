@@ -1,0 +1,5 @@
+.collapseContent {
+	&.contentOpen {
+		max-height: 200px;
+	}
+}
