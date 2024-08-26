@@ -1,17 +1,19 @@
 import '../styles/GithubProject.css';
 
+import { RecentProjectData } from './RecentWork';
+
 export default function GithubProject({
+	id,
 	name,
-	url,
+	html_url,
 	language,
 	topics,
 	description,
-}) {
-
+}: RecentProjectData) {
 	return (
-		<div className='recentProjectInner'>  
+		<div className="recentProjectInner">
 			<h3 className="recentProjectName">
-				<a href={url}>{name}</a>{' '}
+				<a href={html_url}>{name}</a>
 			</h3>
 			<h4 className="recentProjectLanguage">{language}</h4>
 			<p className="recentProjectDescription">{description}</p>

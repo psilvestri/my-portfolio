@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import CollapseArrow from './CollapseArrow';
 import GithubProject from './GithubProject';
 
-interface RecentProjectData {
+export interface RecentProjectData {
 	id: number;
 	name: string;
 	html_url: string;
@@ -74,8 +74,9 @@ export default function RecentWork() {
 								key={project.id}
 								className="recentProject">
 								<GithubProject
+									id={project.id}
 									name={project.name}
-									url={project.html_url}
+									html_url={project.html_url}
 									language={project.language}
 									topics={project.topics}
 									description={project.description}
