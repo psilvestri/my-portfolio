@@ -27,7 +27,7 @@ export default function AccordionDropdown({
 			<div
 				className="collapseHeader"
 				onClick={handleClick}>
-				<div className="collapseTitle">{title}</div>
+				<h2 className="collapseTitle">{title}</h2>
 				<CollapseArrow
 					style={
 						{

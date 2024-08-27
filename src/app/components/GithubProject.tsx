@@ -17,7 +17,7 @@ export default function GithubProject({ project }: GithubProjectProps) {
 					{name}
 				</a>
 			</h3>
-			<h4 className="recentProjectLanguage">{language}</h4>
+			<h4 className="recentProjectLanguage subheading">{language}</h4>
 			<p className="recentProjectDescription">{description}</p>
 			<div className="recentProjectTopics">
 				{topics.map((topic: string) => (
