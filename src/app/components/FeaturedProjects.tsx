@@ -18,8 +18,8 @@ export default function FeaturedProjects() {
 					<p>Me not having somewhere awesome to show off my projects!</p>
 					<h4>Why is it cool?</h4>
 					<p>
-						It's the only website where I have unlimited time and flexibility to
-						enhance and polish every aspect to my liking.
+						It&apos;s the only website where I have unlimited time and
+						flexibility to enhance and polish every aspect to my liking.
 					</p>
 				</div>
 
