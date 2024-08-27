@@ -5,8 +5,8 @@ import '../styles/CollapsibleSection.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-import CollapseArrow from './CollapseArrow';
 import GithubProject from './GithubProject';
+import AccordionDropdown from './AccordionDropown';
 
 export interface RecentProjectData {
 	id: number;
@@ -19,7 +19,6 @@ export interface RecentProjectData {
 
 export default function RecentWork() {
 	const [recentProjects, setRecentProjects] = useState<RecentProjectData[]>([]);
-	const [showContent, setShowContent] = useState(false);
 
 	useEffect(() => {
 		const res = axios
@@ -42,49 +41,19 @@ export default function RecentWork() {
 		console.log(recentProjects);
 	}, [recentProjects]);
 
-	const handleClick = () => {
-		setShowContent(!showContent);
-	};
-
-	const rotate = showContent ? 'rotate(0)' : 'rotate(-90deg)';
-
 	return (
-		<div
-			id="recentWorkSection"
-			className="collapseSection">
-			<div
-				className="collapseHeader"
-				onClick={handleClick}>
-				<div className="collapseTitle">Recent Activity</div>
-				<CollapseArrow
-					style={
-						{
-							transform: rotate,
-							transition: 'all 0.2s linear',
-						} as React.CSSProperties
-					}
-				/>
-			</div>
-
-			<div className={'collapseContent ' + (showContent ? 'contentOpen' : '')}>
-				{showContent &&
-					recentProjects.map((project: RecentProjectData) => {
-						return (
-							<div
-								key={project.id}
-								className="recentProject">
-								<GithubProject
-									id={project.id}
-									name={project.name}
-									html_url={project.html_url}
-									language={project.language}
-									topics={project.topics}
-									description={project.description}
-								/>
-							</div>
-						);
-					})}
-			</div>
-		</div>
+		<AccordionDropdown
+			dropDownID="recentWorkSection"
+			title="Recent Activity">
+			{recentProjects.map((project: RecentProjectData) => {
+				return (
+					<div
+						key={project.id}
+						className="recentProject">
+						<GithubProject project={project} />
+					</div>
+				);
+			})}
+		</AccordionDropdown>
 	);
 }

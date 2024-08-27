@@ -1,15 +1,13 @@
 import '../styles/GithubProject.css';
 
 import { RecentProjectData } from './RecentWork';
+interface GithubProjectProps {
+	project: RecentProjectData;
+}
 
-export default function GithubProject({
-	id,
-	name,
-	html_url,
-	language,
-	topics,
-	description,
-}: RecentProjectData) {
+export default function GithubProject({ project }: GithubProjectProps) {
+	const { name, html_url, language, topics, description } = project;
+
 	return (
 		<div className="recentProjectInner">
 			<h3 className="recentProjectName">
