@@ -2,7 +2,7 @@ import './styles/Page.css';
 
 import ParallaxMountains from './components/ParallaxMountains';
 import AboutMe from './components/AboutMe';
-import FeaturedProjects from './components/FeaturedProjects';
+import FeaturedWork from './components/FeaturedWork';
 import RecentWork from './components/RecentWork';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
 			<ParallaxMountains />
 			<div className="homeContent">
 				<AboutMe />
-				<FeaturedProjects />
+				<FeaturedWork />
 				<RecentWork />
 			</div>
 		</div>
