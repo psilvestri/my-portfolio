@@ -4,6 +4,7 @@ import ParallaxMountains from './components/ParallaxMountains';
 import AboutMe from './components/AboutMe';
 import FeaturedWork from './components/FeaturedWork';
 import RecentWork from './components/RecentWork';
+import Footer from './components/Footer';
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 				<AboutMe />
 				<FeaturedWork />
 				<RecentWork />
+				<Footer />
 			</div>
 		</div>
 	);
