@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import FeaturedWork from './components/FeaturedWork';
 import RecentWork from './components/RecentWork';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 				<AboutMe />
 				<FeaturedWork />
 				<RecentWork />
+				<Contact />
 				<Footer />
 			</div>
 		</div>
