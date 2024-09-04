@@ -60,7 +60,7 @@ export default function ParallaxMountains() {
 						style={{ translate: '0px 2920px' }}
 					/>
 					<div className="welcomeMessage">
-						<h1>Hi, I'm Peter</h1>
+						<h1>Hi, I&apos;m Peter</h1>
 						<h2>Look what I can do...</h2>
 						<div className="bannerArrow"></div>
 					</div>
