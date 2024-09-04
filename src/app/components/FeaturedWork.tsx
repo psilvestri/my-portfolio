@@ -16,7 +16,7 @@ export default function FeaturedWork() {
 				languages="HTML, CSS, JavaScript, React, NextJS, TypeScript"
 				whatSolve="Me not having somewhere awesome to show off my projects!"
 				description="It's the only website where I have unlimited time and flexibility
-				to enhance and polish every aspect to my liking."
+				to enhance and polish every aspect to my liking. Check out the recent activity section to see how I utilized the GitHub API to display a feed of my recent public contributions!!"
 				screenshot="ScreenshotMyPortfolio.png"
 				screenshotAlt="Sample image from my portfolio website"
 			/>

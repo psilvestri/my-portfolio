@@ -12,7 +12,9 @@ export default function Footer() {
 			<div className="footerLeft">
 				<h4 className="siteMapHeader">Sitemap</h4>
 				<ul className="siteMap">
-					<li>Home</li>
+					<li>
+						<a href="/">Home</a>
+					</li>
 				</ul>
 			</div>
 			<div className="footerMid">
@@ -20,13 +22,17 @@ export default function Footer() {
 				<p>All Rights Reserved</p>
 			</div>
 			<div className="footerRight">
-				<a href="www.linkedin.com/in/peter-silvestri-b1a55a175">
+				<a
+					href="https://www.linkedin.com/in/peter-silvestri-b1a55a175"
+					target="_blank">
 					<FontAwesomeIcon
 						icon={faLinkedin}
 						className="singleSocialIcon"
 					/>
 				</a>
-				<a href="https://github.com/psilvestri">
+				<a
+					href="https://github.com/psilvestri"
+					target="_blank">
 					<FontAwesomeIcon
 						icon={faSquareGithub}
 						className="singleSocialIcon"
