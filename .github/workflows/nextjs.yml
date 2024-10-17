@@ -25,7 +25,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  cache-and-install:
+  # Build job
+  build:
     runs-on: ubuntu-latest
 
     steps:
