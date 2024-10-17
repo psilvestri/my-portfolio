@@ -47,3 +47,9 @@ p {
 a {
 	color: rgba(253, 194, 150, 1);
 }
+
+@media only screen and (max-width: 1200px) {
+	.homeContent {
+		max-width: 90%;
+	}
+}

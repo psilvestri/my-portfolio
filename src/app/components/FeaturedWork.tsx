@@ -29,7 +29,7 @@ export default function FeaturedWork() {
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Perspiciatis vitae obcaecati quod atque deleniti, veritatis odit,
 						eos non, tempore repellendus reiciendis asperiores dicta maxime
-						facilis soluta adipisci. Cum, laboriosam amet!"
+						facilis soluta adipisci."
 				screenshot="ScreenshotMyPortfolio.png"
 				screenshotAlt="Sample image from my portfolio website"
 			/>

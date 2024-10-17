@@ -50,7 +50,7 @@ export default function FeaturedProject({
 					src={`${hasPrefix}assets/featuredProjectImages/${screenshot}`}
 					alt={screenshotAlt}
 					fill
-					style={{ objectFit: 'cover' }}></Image>
+					style={{ objectFit: 'cover', minHeight: '150px' }}></Image>
 			</div>
 		</div>
 	);

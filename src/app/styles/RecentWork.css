@@ -14,5 +14,24 @@
 	flex-direction: column;
 	justify-content: space-between;
 	border-radius: 5px;
-	background-color: #0C283E;
+	background-color: #0c283e;
+}
+
+@media only screen and (max-width: 991px) {
+	.recentProject {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.collapseContent {
+		flex-direction: column;
+		gap: 20px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.recentProject {
+		width: 90%;
+	}
 }
