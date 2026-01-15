@@ -19,8 +19,6 @@ export default function FeaturedProject({
 	screenshot,
 	screenshotAlt,
 }: FeaturedProjectProps) {
-	const hasPrefix = process.env.NODE_ENV === 'development' ? '/' : '';
-
 	return (
 		<div className="featuredProject">
 			<div className="textContent">
@@ -47,7 +45,7 @@ export default function FeaturedProject({
 			<div className="imageContent">
 				<Image
 					className="FeaturedWorkScreenshot"
-					src={`${hasPrefix}assets/featuredProjectImages/${screenshot}`}
+					src={`/assets/featuredProjectImages/${screenshot}`}
 					alt={screenshotAlt}
 					fill
 					style={{ objectFit: 'cover', minHeight: '150px' }}></Image>
