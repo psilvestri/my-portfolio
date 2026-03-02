@@ -11,17 +11,24 @@ export default function AboutMe() {
 			dropDownID="aboutMeSection"
 			title="About Me">
 			<p>
-				I&apos;m a full-stack software developer with over five years of
-				experience building dynamic and user-friendly applications. My passion
-				for coding is matched by my love for continuous learning, whether
-				it&apos;s mastering new technologies or honing my skills in existing
-				ones. When I&apos;m not coding, you can find me hiking, tending to my
-				garden, or experimenting in the kitchen. I bring the same curiosity and
-				attention to detail from my hobbies into my work, always striving to
-				create clean, efficient, and scalable solutions. If you&apos;re looking
-				for a developer who is as dedicated to their craft as they are to
-				delivering exceptional results, I&apos;d love to connect and discuss how
-				I can help bring your project to life.
+				I’m an Analytics Engineer focused on transforming raw event data into
+				reliable, analytics-ready systems that power marketing and product
+				decision-making. With over six years of experience in tracking
+				architecture (GTM/GA4), BigQuery SQL, and cloud automation using Python
+				and AWS, I design scalable data models that bridge engineering and
+				business teams. My background in full-stack development allows me to
+				instrument complex front-end and backend systems directly, ensuring
+				accurate event capture, clean schema design, and resilient data
+				pipelines from source to warehouse.
+			</p>
+
+			<p>
+				I also care as much about how data is presented as how it’s collected.
+				My passion for UI/UX drives me to design dashboards and reports that are
+				clear, intuitive, and actionable, making it easy for marketing, product,
+				and growth teams to understand insights at a glance. By combining this
+				with robust tracking and transformation pipelines, I deliver analytics
+				solutions that are both reliable and easy to use.
 			</p>
 		</AccordionDropdown>
 	);
