@@ -26,8 +26,9 @@ export default function FeaturedProject({
 					<h3>{title}</h3>
 					{liveURL && (
 						<a
-							href="https://psilvestri.github.io/my-portfolio/"
+							href={liveURL}
 							target="_blank"
+							rel="noreferrer"
 							className="liveButton">
 							Live
 						</a>
@@ -47,8 +48,14 @@ export default function FeaturedProject({
 					className="FeaturedWorkScreenshot"
 					src={`/assets/featuredProjectImages/${screenshot}`}
 					alt={screenshotAlt}
-					fill
-					style={{ objectFit: 'cover', minHeight: '150px' }}></Image>
+					width={1200}
+					height={675}
+					style={{
+						objectFit: 'cover',
+						width: '100%',
+						height: 'auto',
+						minHeight: '150px',
+					}}></Image>
 			</div>
 		</div>
 	);
